@@ -37,7 +37,7 @@
                   const butterfliesImage = document.getElementById('butterflies-image');
 
                   // Create an audio element and set its source to the music file (music.mp3)
-                  const butterfliesaudio = new Audio('Music/music.mp3');
+                  const butterfliesaudio = new Audio('Music/Butterflies.mp3');
 
                   // Set the initial volume to 1 (maximum)
                   butterfliesaudio.volume = 1;
@@ -50,7 +50,7 @@
                     // Check if audio is not currently playing
                     if (!audioPlaying) {
                       // Play the audio when hovering over the image
-                      butterfliesaudio.currentTime = 71; // Reset the audio to the beginning
+                      butterfliesaudio.currentTime = 0; // Reset the audio to the beginning
                       butterfliesaudio.play();
                       butterfliesaudio.volume = 1;
                       audioPlaying = true; // Set the flag to indicate audio is playing
@@ -68,7 +68,7 @@
                     if (audioPlaying) {
                       // Pause and reset the audio when the mouse leaves the image
                       butterfliesaudio.pause();
-                      butterfliesaudio.currentTime = 71; // Reset the audio to the beginning
+                      butterfliesaudio.currentTime = 0; // Reset the audio to the beginning
 
                       // Clear the fadeout timeout when the mouse leaves
                       clearTimeout(fadeTimeout);
@@ -124,7 +124,7 @@
                     const adrenalineImage = document.getElementById('adrenaline-image');
 
                     // Create an audio element and set its source to the music file for adrenaline
-                    const adrenalineaudio = new Audio('Music/music2.mp3');
+                    const adrenalineaudio = new Audio('Music/Adrenaline.mp3');
 
                     // Set the initial volume to 1 (maximum)
                     adrenalineaudio.volume = 1;
@@ -137,7 +137,7 @@
                       // Check if audio for adrenaline is not currently playing
                       if (!audioPlayingAdrenaline) {
                         // Play the audio when hovering over the image
-                        adrenalineaudio.currentTime = 329; // Reset the audio to the beginning
+                        adrenalineaudio.currentTime = 0; // Reset the audio to the beginning
                         adrenalineaudio.play();
                         adrenalineaudio.volume = 1;
                         audioPlayingAdrenaline = true; // Set the flag to indicate audio is playing
@@ -155,7 +155,7 @@
                       if (audioPlayingAdrenaline) {
                         // Pause and reset the audio when the mouse leaves the image
                         adrenalineaudio.pause();
-                        adrenalineaudio.currentTime = 329; // Reset the audio to the beginning
+                        adrenalineaudio.currentTime = 0; // Reset the audio to the beginning
 
                         // Clear the fadeout timeout when the mouse leaves "adrenaline-image"
                         clearTimeout(fadeTimeoutAdrenaline);
@@ -211,7 +211,7 @@
                     const warTalkImage = document.getElementById('wartalk-image');
 
                     // Create an audio element and set its source to the music file for War Talk
-                    const warTalkaudio = new Audio('Music/music3.mp3');
+                    const warTalkaudio = new Audio('Music/WarTalk.mp3');
 
                     // Set the initial volume to 1 (maximum)
                     warTalkaudio.volume = 1;
@@ -224,7 +224,7 @@
                       // Check if audio for War Talk is not currently playing
                       if (!audioPlayingWartalk) {
                         // Play the audio when hovering over the image
-                        warTalkaudio.currentTime = 562.2; // Reset the audio to the beginning
+                        warTalkaudio.currentTime = 0; // Reset the audio to the beginning
                         warTalkaudio.play();
                         warTalkaudio.volume = 1;
                         audioPlayingWartalk = true; // Set the flag to indicate audio is playing
@@ -242,7 +242,7 @@
                       if (audioPlayingWartalk) {
                         // Pause and reset the audio when the mouse leaves the image
                         warTalkaudio.pause();
-                        warTalkaudio.currentTime = 562.2; // Reset the audio to the beginning
+                        warTalkaudio.currentTime = 0; // Reset the audio to the beginning
 
                         // Clear the fadeout timeout when the mouse leaves "wartalk-image"
                         clearTimeout(fadeTimeoutWartalk);
@@ -299,7 +299,7 @@
                     const distanceImage = document.getElementById('distance-image');
 
                     // Create an audio element and set its source to the music file for Distance
-                    const distanceaudio = new Audio('Music/music4.mp3');
+                    const distanceaudio = new Audio('Music/Distance.mp3');
 
                     // Set the initial volume to 1 (maximum)
                     distanceaudio.volume = 1;
@@ -312,7 +312,7 @@
                       // Check if audio for Distance is not currently playing
                       if (!audioPlayingDistance) {
                         // Play the audio when hovering over the image
-                        distanceaudio.currentTime = 804; // Reset the audio to the beginning
+                        distanceaudio.currentTime = 0; // Reset the audio to the beginning
                         distanceaudio.play();
                         distanceaudio.volume = 1;
                         audioPlayingDistance = true; // Set the flag to indicate audio is playing
@@ -330,7 +330,7 @@
                       if (audioPlayingDistance) {
                         // Pause and reset the audio when the mouse leaves the image
                         distanceaudio.pause();
-                        distanceaudio.currentTime = 804; // Reset the audio to the beginning
+                        distanceaudio.currentTime = 0; // Reset the audio to the beginning
 
                         // Clear the fadeout timeout when the mouse leaves "distance-image"
                         clearTimeout(fadeTimeoutDistance);
